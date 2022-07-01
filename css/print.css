@@ -1,0 +1,13 @@
+body {
+	font-family: Arial, sans-serif;
+	Times, serif;
+	font-size: 12pt;
+	line-height: 18pt;
+}
+body #container {
+	margin: 1in 1.2in .5in 1.2in;
+}
+
+#footer,.btn-qe{
+	display: none;
+}
