@@ -3029,7 +3029,7 @@ strong.team-name {
 }
 
 .career-block:before {
-    background: rgba(70, 87, 128, .5);
+    background: rgba(70, 87, 128, .7);
 }
 
 .inner-wrapper {
@@ -3069,7 +3069,30 @@ strong.team-name {
     font-weight: 600;
     text-transform: uppercase;
 }
-
+.organisation{
+    background: #F7F7F7;
+}
+ .foundation {
+    padding: 60px 0;
+    color: #333;
+    font-size: 20px;
+    line-height: 30px;
+}
+.foundation .text-wrap {
+    padding: 0 70px 0 0;
+    font-size: 20px;
+    line-height: 24px;
+    color: #333;
+}
+.flex{
+    display: flex;
+}
+.align-items--center {
+    align-items: center;
+}
+.foundation h4{
+    color: #465780;
+}
 @media only screen and (max-width: 991px) {
     .banner-images {
         background-size: cover;
