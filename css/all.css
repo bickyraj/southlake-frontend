@@ -376,7 +376,9 @@ h2 {
 .testimonials h2,
 .blog h2,
 .accreditations h2,
-.who-we-are h2 {
+.who-we-are h2,
+.our-locations h2,
+.test-menu h2 {
     text-transform: inherit;
     font-size: 40px;
     line-height: 46px;
@@ -772,7 +774,8 @@ h2 {
 .service .section_title span:before,
 .testimonials .section_title span:before,
 .accreditations .section_title span:before,
-.blog .section_title span:before {
+.blog .section_title span:before,
+.our-locations .section_title span:before {
     left: 50%;
 }
 
@@ -940,6 +943,9 @@ h4 {
     background: rgba(92, 102, 255, 0.04);
 }
 
+.blog .blog-post {
+    margin-bottom: 30px;
+}
 
 
 .blog-post figure img {
@@ -1080,6 +1086,165 @@ h4 {
     font-style: normal;
     font-weight: 500;
     text-transform: uppercase;
+}
+
+.our-locations {
+    margin-top: 0;
+    position: relative;
+    z-index: 1;
+    padding: 60px 0;
+}
+
+.locations-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.locations-list li {
+    flex: 1 1 33.3333%;
+    position: relative;
+}
+
+.locations-list li:after {
+    background: url(../images/pin.svg) no-repeat;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: -25px;
+    top: 4px;
+    content: '';
+    background-size: cover;
+}
+
+.locations-list li strong {
+    display: block;
+    font-size: 20px;
+    line-height: 30px;
+    color: #465780;
+    font-weight: 500;
+    margin: 0 0 10px;
+}
+
+.maps {
+    background: #465780;
+    padding: 60px 0;
+}
+
+.map-title {
+    background: #fff;
+    padding: 30px;
+}
+
+.map-title h3 {
+    margin: 0;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 500;
+    color: #465780;
+}
+
+.maps-btm {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.maps-btm iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+/*Pagination*/
+.pagination-wrapper {
+    text-align: center;
+    margin: 5px 0;
+}
+
+.pagination {
+    display: inline-block;
+    height: 70px;
+    margin-top: 0;
+    padding: 0 25px;
+    border-radius: 35px;
+    background-color: #eee;
+}
+
+@media only screen and (max-width: 1199px) {
+    .pagination {
+        height: 50px;
+        margin-top: 50px;
+        padding: 0 10px;
+        border-radius: 25px;
+    }
+}
+
+.page-numbers {
+    display: block;
+    padding: 0 25px;
+    float: left;
+    transition: 400ms ease;
+    color: #595959;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    line-height: 70px;
+}
+
+.page-numbers:hover,
+.page-numbers.current {
+    background-color: #50c3be;
+    color: #fff;
+}
+
+.page-numbers.prev:hover,
+.page-numbers.next:hover {
+    background-color: transparent;
+    color: #50c3be;
+}
+
+@media only screen and (max-width: 1199px) {
+    .page-numbers {
+        padding: 0 15px;
+        font-size: 16px;
+        line-height: 50px;
+    }
+}
+
+@media only screen and (min-width: 120px) and (max-width: 1024px) {
+    .page-numbers {
+        padding: 0 14px;
+        display: none;
+    }
+
+    .page-numbers:nth-of-type(2) {
+        position: relative;
+        padding-right: 50px;
+    }
+
+    .page-numbers:nth-of-type(2)::after {
+        content: "...";
+        position: absolute;
+        font-size: 25px;
+        top: 0;
+        left: 45px;
+    }
+
+    .page-numbers:nth-child(-n+3),
+    .page-numbers:nth-last-child(-n+3) {
+        display: block;
+    }
+
+    .page-numbers:nth-last-child(-n+4) {
+        padding-right: 14px;
+    }
+
+    .page-numbers:nth-last-child(-n+4)::after {
+        content: none;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -2195,7 +2360,8 @@ textarea.form-control {
 
 /* Gallery */
 
-.main-section h2 {
+.main-section h2,
+.mt-title h3 {
     display: block;
     margin: 0;
     margin-bottom: 25px;
@@ -2206,6 +2372,14 @@ textarea.form-control {
     border-radius: 3px;
     font-size: 18px;
     text-transform: uppercase;
+}
+
+.test_chem .mt-title h3 {
+    background: #50c3be;
+}
+
+.our-locations .test_chem h4 {
+    background: #50c3be;
 }
 
 .post-blog {
@@ -2338,9 +2512,6 @@ textarea.form-control {
     top: 51%;
 }
 
-.pagination {
-    display: none;
-}
 
 .mob-tel {
     display: none;
@@ -2417,6 +2588,7 @@ textarea.form-control {
     line-height: 40px;
     text-transform: uppercase;
     color: #fff;
+    padding-left: 0;
     margin: 0 0 40px;
 }
 
@@ -2466,6 +2638,8 @@ textarea.form-control {
     text-transform: uppercase;
     color: #0f4c95;
     margin: 0 0 15px;
+    padding: 0;
+    background-color: transparent;
 }
 
 .send-us p {
@@ -2604,7 +2778,8 @@ textarea {
     color: #465780;
 }
 
-.job-section li {
+.job-section li,
+.test-menu li {
     padding-left: 25px;
     background: url(../images/bullet-purple.png) no-repeat 0 4px;
     position: relative;
@@ -2615,7 +2790,25 @@ textarea {
     list-style: none;
 }
 
-.career-detail li:after {
+.test-menu li {
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.test-menu .test_immuno li,
+.lab-services li {
+    background: url(../images/bullet-blue.png) no-repeat 0 4px;
+    background-size: 9px 9px;
+}
+
+.test-menu .test_chem li {
+    background: url(../images/bullet-theme.png) no-repeat 0 4px;
+    background-size: 9px 9px;
+}
+
+.career-detail li:after,
+.test-menu li:after,
+.lab-services li:after {
     height: 100%;
     width: 1px;
     background: #f96332;
@@ -2625,7 +2818,17 @@ textarea {
     left: 4px;
 }
 
-.career-detail li:last-child:after {
+.test-menu .test_chem li:after {
+    background: #50c3be;
+}
+
+.test-menu .test_immuno li:after,
+.lab-services li:after {
+    background: #465780;
+}
+
+.career-detail li:last-child:after,
+.test-menu li:last-child:after {
     display: none
 }
 
@@ -2848,6 +3051,23 @@ strong.team-name {
 
 .pad-60 {
     padding-bottom: 60px;
+}
+
+.our-locations h4 {
+    background: #50c3be;
+    color: #fff;
+    padding: 10px;
+}
+
+.our-locations h4 {
+    background: #465780;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 20px;
+    border-radius: 3px;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 @media only screen and (max-width: 991px) {
@@ -3154,7 +3374,8 @@ strong.team-name {
     .section_title h2 br {
         display: none;
     }
-    .owl-dots{
+
+    .owl-dots {
         text-align: center;
     }
 }
