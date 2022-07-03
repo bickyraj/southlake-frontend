@@ -2909,8 +2909,7 @@ textarea {
     white-space: normal !important;
 }
 
-.foundation h3,
-.organisation h3,
+
 .our-facilities h3,
 .who-we-are h3 {
     font-weight: 700;
@@ -2920,7 +2919,17 @@ textarea {
     color: #465780;
     margin: 0 0 30px;
 }
-
+.foundation h2,
+.organisation h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    text-transform: uppercase;
+    color: #465780;
+    background: none;
+    margin: 0 0 30px;
+    padding: 0;
+}
 .text-wrap li {
     font-weight: 600;
 }
