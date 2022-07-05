@@ -129,89 +129,130 @@
                 </div>
             </div>
         </section>
+        <section class="blog">
+            <div class="container">
+                <div class="section_title text-center">
+                    <span>News & Our Blog</span>
+                    <h2>Latest posts in research and development</h2>
+                </div>
+                <div class="row">
+                    <article class="col-md-4 blog-post">
+                        <div class="blog-image">
+                            <figure><a href=""><img src="images/blog_post1.jpg" alt=""></a></figure>
+                        </div>
+                        <div class="blog-content">
+                            <h3>CURRENT STUDY: NIH/NLM NCT04944095 AND RESEARCH TEAM</h3>
+                            <p><a href="">Lorem ipsum, dolor sit amet consectetur adipisicing placeat doloremque</a></p>
+                            <div class="post-link-holder">
+                                <a href="#">read more</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-md-4 blog-post">
+                        <div class="blog-image">
+                            <figure><a href=""><img src="images/blog_post2.jpg" alt=""></a></figure>
+                        </div>
+                        <div class="blog-content">
+                            <h3>CLINICAL TRIAL INVESTIGATORS AND RESEARCH TEAM</h3>
+                            <p><a href="">Lorem ipsum, dolor sit amet consectetur adipisicing placeat doloremque</a></p>
+                            <div class="post-link-holder">
+                                <a href="#">read more</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-md-4 blog-post">
+                        <div class="blog-image">
+                            <figure><a href=""><img src="images/blog_post3.jpg" alt=""></a></figure>
+                        </div>
+                        <div class="blog-content">
+                            <h3>CLINICAL TRIAL INVESTIGATORS AND RESEARCH TEAM</h3>
+                            <p><a href="">Lorem ipsum, dolor sit amet consectetur adipisicing placeat doloremque</a></p>
+                            <div class="post-link-holder">
+                                <a href="#">read more</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="accreditations">
+            <div class="container">
+                <div class="row">
+                    <div class="section_title text-center">
+                        <span>OUR ACCREDITATIONS</span>
+                        <h2>People who always support and endorse our good work</h2>
+                    </div>
+                </div>
+                <div class="owl-carousel accreditations-slider">
+                    <div class="item">
+                        <div class="acc-logo"><img src="images/accred_clia.jpg" alt="accred clia"></div>
+                    </div>
+                    <div class="item">
+                        <div class="acc-logo"><img src="images/accred_glp.jpg" alt="accred glp"></div>
+                    </div>
+                    <div class="item">
+                        <div class="acc-logo"><img src="images/accred_cola.jpg" alt="accred cola"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- Main Section Close -->
-        <!-- Footer -->
+          <!-- Footer -->
+        <footer id="footer">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="contact-info">
+                                <a href="" class="logo"><img src="images/logo.png" alt="logo"></a>
+                               <span class="text-small">© 2022 SOUTHLAKE DIAGNOSTICS</span>
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="consulation">
+                                
+                                <ul>
+                                    <li><a href="">Home</a></li>
+                                    <li><a href="">Information</a></li>
+                                    <li><a href="">About Us</a></li>
+                                    <li><a href="">Career</a></li>
+                                    <li><a href="">Our Services</a></li>
+                                    <li><a href="">Gallery</a></li>
+                                    <li><a href="">News & Events</a></li>
+                                    <li><a href="">Contact Us</a></li>
+                                    <li><a href="">Blogs</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                             <address>
+                                    580 Commerce Street, Suite 150A
+                                    Southlake, Texas 76092 <br />
+                                    <a href="telto:(844) 473-9522">(844) 473-9522 (4SDXLAB)</a>
+                                    <a href="mailto:info@southlakeDX.com">info@southlakeDX.com</a>
+                                </address>
+                                <ul>
+                                    <li><a href=""><img src="images/Facebook.svg" width="30" height="30" alt="Facebook"></a></li>
+                                    <li><a href=""><img src="images/LinkedIn.svg" width="30" height="30" alt="LinkedIn"></a></li>
+                                    <li><a href=""><img src="images/Twitter.svg" width="30" height="30" alt="Twitter"></a></li>
+                                    <li><a href=""><img src="images/Instagram.svg" width="30" height="30" alt="Instagram"></a></li>
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
         <!-- Footer Close -->
     </div>
     <!-- Optional JavaSctript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js" type="text/JavaScript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <script src="js/accordion.js"></script>
-    <script type="text/JavaScript">
-        $(document).ready(function(){
-getAccordion("#tabs",768);
-});
-        $('.dropdown').on('show.bs.dropdown', function(){
-    $(this).find('.dropdown-menu').first().stop(true, true).slideDown();
-});
-$('.dropdown').on('hide.bs.dropdown', function(e){
-    e.preventDefault();
-    $(this).find('.dropdown-menu').first().stop(true, true).slideUp(400, function(){
-        $(this).closest('.dropdown').removeClass('open');
-        $(this).closest('.dropdown').find('.dropdown-toggle').attr('aria-expanded','false');
-    });
-});
-$('.owl-carousel.banner-slider').owlCarousel({
-    loop:true,
-    margin:10,
-    responsiveClass:true,
-    responsive:{
-        0:{
-            items:1,
-            nav:true
-        },
-        600:{
-            items:1,
-            nav:false
-        },
-        1000:{
-            items:1,
-            nav:true,
-            loop:false
-        }
-    }
-}) 
-$('.owl-carousel.departments-slider').owlCarousel({
-    loop:true,
-    margin:30,
-    responsiveClass:true,
-    responsive:{
-        0:{
-            items:1,
-            nav:true
-        },
-        600:{
-            items:2,
-            nav:false
-        },
-        1000:{
-            items:4,
-            nav:true,
-            loop:false
-        }
-    }
-})
-$('.owl-carousel.testimonials-slider').owlCarousel({
-    loop:false,
-    margin:10,
-    responsiveClass:true,
-    responsive:{
-        0:{
-            items:1,
-            nav:true
-        },
-        600:{
-            items:1,
-            nav:false
-        },
-        1000:{
-            items:1,
-            nav:true,
-            loop:false
-        }
-    }
-})</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="js/script.js" type="text/JavaScript">
+      
+</script>
 </body>
 
 </html>
