@@ -260,13 +260,14 @@ img {
 
 a {
     text-decoration: none;
-    color: #263238;
+    color: #50c3bf;
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
 }
 
 a:hover {
     text-decoration: none;
+    color: #fff;
 }
 
 a:active {
@@ -2596,7 +2597,7 @@ textarea.form-control {
 }
 
 .contact-block ul {
-    margin: 0;
+    margin: 20px 0 0;
     padding: 0;
     list-style: none;
 }
@@ -2662,7 +2663,8 @@ textarea.form-control {
 }
 
 .contact-form input,
-textarea {
+.contact-form textarea,
+.contact-form select {
     width: 100%;
     background: #F4F4F4;
     padding: 10px;
@@ -2702,9 +2704,18 @@ textarea {
     display: inline-block;
     margin: 0 10px 0 0;
 }
-
+.contact-block.register ul li{
+    margin-bottom: 0;
+    padding-bottom:20px;
+}
 .contact-block ul li.social ul li img {
     filter: brightness(0) invert(1);
+}
+.lab-ser{
+    padding: 30px 0;
+}
+.lab-ser h3{
+    margin-bottom:  30px;
 }
 
 .accreditations {
@@ -2938,7 +2949,9 @@ textarea {
 .text-wrap li {
     font-weight: 600;
 }
-
+.text-wrap .register-list li{
+    font-weight: normal;
+}
 .bg-grey {
     background: #F7F7F7;
 }
@@ -3085,6 +3098,7 @@ strong.team-name {
 }
 .organisation{
     background: #F7F7F7;
+    padding: 60px 0;
 }
  .foundation {
     padding: 60px 0;
