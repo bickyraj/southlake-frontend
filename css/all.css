@@ -378,7 +378,8 @@ h2 {
 .accreditations h2,
 .who-we-are h2,
 .our-locations h2,
-.test-menu h2 {
+.test-menu h2,
+.blog-section h2 {
     text-transform: inherit;
     font-size: 40px;
     line-height: 46px;
@@ -2871,6 +2872,8 @@ textarea {
 
 .foundation p,
 .organisation p {
+    font-size: 18px;
+    line-height: 24px;
     margin: 0 0 30px;
 }
 
@@ -3101,6 +3104,16 @@ strong.team-name {
 }
 .foundation h4{
     color: #465780;
+}
+.event-detail{
+    width: 75%;
+    margin: 40px auto;
+}
+.blog-image{
+    margin-bottom:20px;
+}
+.single-post-data{
+    margin-bottom:  20px;
 }
 @media only screen and (max-width: 991px) {
     .banner-images {
