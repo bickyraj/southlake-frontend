@@ -3100,6 +3100,8 @@ strong.team-name {
 .organisation{
     background: #F7F7F7;
     padding: 60px 0;
+    overflow: hidden;
+    clear: both;
 }
  .foundation {
     padding: 60px 0;
@@ -3125,6 +3127,9 @@ strong.team-name {
 .event-detail{
     width: 75%;
     margin: 40px auto;
+}
+.blog-post .blog-image{
+    margin-bottom: 0;
 }
 .blog-image{
     margin-bottom:20px;
