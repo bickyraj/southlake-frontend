@@ -16,7 +16,7 @@
   })
   wow.init();
 
-  /*        $('.dropdown').on('show.bs.dropdown', function(){
+  /*  $('.dropdown').on('show.bs.dropdown', function(){
       $(this).find('.dropdown-menu').first().stop(true, true).slideDown();
   });
   $('.dropdown').on('hide.bs.dropdown', function(e){
@@ -171,3 +171,14 @@
           $(this).parents('a').siblings('ul').slideToggle();
       })
   });
+$(document).ready(function(){
+
+    var highestBox = 0;
+        $('.blog .blog-content').each(function(){  
+                if($(this).height() > highestBox){  
+                highestBox = $(this).height();  
+        }
+    });    
+    $('.blog .blog-content').height(highestBox);
+
+});
