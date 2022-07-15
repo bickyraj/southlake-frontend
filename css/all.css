@@ -1501,7 +1501,9 @@ h4 {
     font-weight: 500;
     margin-bottom: 20px;
 }
-
+#footer .footer-top address a{
+    color: #000;
+}
 #footer .footer-top ul {
     margin: 0;
     padding: 0;
@@ -1615,7 +1617,12 @@ h4 {
     color: #f96332;
     font-weight: 600;
 }
-
+.contact-info{
+    margin-top:-12px;
+}
+#footer .footer-top ul.contact-links{
+    margin: 15px 0;
+}
 /* Deparments */
 .inner-banner {
     background-size: cover;
@@ -2366,7 +2373,9 @@ textarea.form-control {
     border: 0;
     border-top: 1px solid #dee2e6;
 }
-
+.mt-job table tbody tr td:last-child{
+    text-align: right;
+}
 .mt-job h4 {
     margin-bottom: 0;
 }
@@ -3338,7 +3347,9 @@ strong.team-name {
     line-height: 30px;
     letter-spacing: 1px;
 }
-
+.npi-clia__list{
+    font-size: 14px;
+}
 @media only screen and (max-width: 991px) {
     .mob-icon {
         display: none;
