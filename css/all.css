@@ -1198,11 +1198,13 @@ h4 {
 /* Testimonials */
 .testimonials {
     color: #2d3035;
-    padding: 60px 0 140px;
+    padding: 60px 0 60px;
     background-size: cover;
     background-attachment: fixed;
 }
-
+.experience-block + .testimonials {
+    padding-bottom: 140px;
+}
 .testimonials-item blockquote .img img {
     max-width: 100%;
     border-radius: 100%;
