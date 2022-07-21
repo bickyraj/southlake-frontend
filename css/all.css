@@ -969,7 +969,7 @@ h4 {
 .owl-carousel .deparment-items img {
     vertical-align: top;
     display: inline-block;
-    border-radius: 3px;
+    border-radius: 3px!important;
 }
 
 .deparment-items figure {
@@ -1016,6 +1016,7 @@ h4 {
     transition: all 0.3s linear;
     opacity: 1;
     -webkit-transition: all 0.3s linear;
+    border-radius: 0 0 3px 3px;
 }
 
 .deparment-items a:hover .departments-link {
