@@ -868,11 +868,11 @@ h2 {
 
 }
 
-.service-box--icon span {
+.service-box--icon i {
     display: block;
 }
 
-.service-box--icon span:before {
+.service-box--icon i:before {
     font-size: 64px;
     color: #f96332;
 
@@ -3351,6 +3351,14 @@ strong.team-name {
 }
 .npi-clia__list{
     font-size: 14px;
+}
+.modal-header .close {
+    margin-top: -2px;
+    color: #000;
+    opacity: 1;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #f96332;
 }
 @media only screen and (max-width: 991px) {
     .mob-icon {

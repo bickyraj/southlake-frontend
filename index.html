@@ -124,7 +124,7 @@
                     <div class="col-sm-6 col-md-3 wow fadeInUp" data-wow-offset="0" data-wow-delay="300ms">
                         <div class="service-box bg1">
                             <div class="service-box--icon">
-                                <span class="flaticon-doctor"></span>
+                                <i class="flaticon-observation"></i>
                             </div>
                             <h3 class="title">Qualified Doctors</h3>
                             <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
@@ -133,7 +133,7 @@
                     <div class="col-sm-6 col-md-3 wow fadeInUp" data-wow-offset="0" data-wow-delay="400ms">
                         <div class="service-box bg2">
                             <div class="service-box--icon">
-                                <span class="flaticon-ambulance"></span>
+                                <i class="flaticon-swab"></i>
                             </div>
                             <h3 class="title">Emergency Care</h3>
                             <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
@@ -142,7 +142,7 @@
                     <div class="col-sm-6 col-md-3 wow fadeInUp" data-wow-offset="0" data-wow-delay="500ms">
                         <div class="service-box bg3">
                             <div class="service-box--icon">
-                                <span class="flaticon-stethoscope"></span>
+                                <i class="flaticon-healthcare"></i>
                             </div>
                             <h3 class="title">Outdoor Checkup</h3>
                             <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
@@ -151,7 +151,7 @@
                     <div class="col-sm-6 col-md-3 wow fadeInUp" data-wow-offset="0" data-wow-delay="600ms">
                         <div class="service-box bg4">
                             <div class="service-box--icon">
-                                <span class="flaticon-24-hours"></span>
+                                <i class="flaticon-24-hours"></i>
                             </div>
                             <h3 class="title">24 Hours Service</h3>
                             <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
@@ -491,6 +491,26 @@
                 </div>
             </div>
         </footer>
+        <div class="modal fade" id="global-modal" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <!--Modal Content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                   CLOSE
+                </button>
+
+      </div>
+      <div class="modal-body">
+        <img class="img-full img-responsive" src="images/blog_post3.jpg" width="100%" height="300">
+        <div class="modal-body">
+            <h1>Southlake Diagnostics</h1>
+            <p> Fast, Safe & Accurate PCR and Lab Antibody Results! 24-36 hour turn-around.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
         <a class="btn-qe" target="_self" href="">Get an appointment</a>
         <!-- Footer Close -->
     </div>
@@ -500,9 +520,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-    <script src="js/script.js" type="text/JavaScript">
-      
-</script>
+    <script src="js/script.js" type="text/javaScript"></script>
+    <script>
+        $(document).ready(function() {
+  $('#global-modal').modal('show');
+});
+    </script>
 </body>
 
 </html>

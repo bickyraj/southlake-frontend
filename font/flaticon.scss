@@ -1,0 +1,101 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?01c05859254741d8e899bab4b9d8d2c2") format("truetype"),
+url("./flaticon.woff?01c05859254741d8e899bab4b9d8d2c2") format("woff"),
+url("./flaticon.woff2?01c05859254741d8e899bab4b9d8d2c2") format("woff2"),
+url("./flaticon.eot?01c05859254741d8e899bab4b9d8d2c2#iefix") format("embedded-opentype"),
+url("./flaticon.svg?01c05859254741d8e899bab4b9d8d2c2#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "doctor": "\f101",
+    "ambulance": "\f102",
+    "stethoscope": "\f103",
+    "24-hours": "\f104",
+    "phone-call": "\f105",
+    "email": "\f106",
+    "time": "\f107",
+    "clock": "\f108",
+    "clock-1": "\f109",
+    "calendar": "\f10a",
+    "observation": "\f10b",
+    "heart": "\f10c",
+    "avatar": "\f10d",
+    "placeholder": "\f10e",
+    "twitter-1": "\f10f",
+    "facebook-1": "\f110",
+    "linkedin-1": "\f111",
+    "swab": "\f112",
+    "healthcare": "\f113",
+);
+
+.flaticon-doctor:before {
+    content: map-get($flaticon-map, "doctor");
+}
+.flaticon-ambulance:before {
+    content: map-get($flaticon-map, "ambulance");
+}
+.flaticon-stethoscope:before {
+    content: map-get($flaticon-map, "stethoscope");
+}
+.flaticon-24-hours:before {
+    content: map-get($flaticon-map, "24-hours");
+}
+.flaticon-phone-call:before {
+    content: map-get($flaticon-map, "phone-call");
+}
+.flaticon-email:before {
+    content: map-get($flaticon-map, "email");
+}
+.flaticon-time:before {
+    content: map-get($flaticon-map, "time");
+}
+.flaticon-clock:before {
+    content: map-get($flaticon-map, "clock");
+}
+.flaticon-clock-1:before {
+    content: map-get($flaticon-map, "clock-1");
+}
+.flaticon-calendar:before {
+    content: map-get($flaticon-map, "calendar");
+}
+.flaticon-observation:before {
+    content: map-get($flaticon-map, "observation");
+}
+.flaticon-heart:before {
+    content: map-get($flaticon-map, "heart");
+}
+.flaticon-avatar:before {
+    content: map-get($flaticon-map, "avatar");
+}
+.flaticon-placeholder:before {
+    content: map-get($flaticon-map, "placeholder");
+}
+.flaticon-twitter-1:before {
+    content: map-get($flaticon-map, "twitter-1");
+}
+.flaticon-facebook-1:before {
+    content: map-get($flaticon-map, "facebook-1");
+}
+.flaticon-linkedin-1:before {
+    content: map-get($flaticon-map, "linkedin-1");
+}
+.flaticon-swab:before {
+    content: map-get($flaticon-map, "swab");
+}
+.flaticon-healthcare:before {
+    content: map-get($flaticon-map, "healthcare");
+}
