@@ -54,7 +54,7 @@
       }
   })
   $('.owl-carousel.departments-slider').owlCarousel({
-      loop: true,
+      loop: false,
       margin: 30,
       responsiveClass: true,
       responsive: {

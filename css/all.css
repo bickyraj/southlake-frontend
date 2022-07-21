@@ -945,9 +945,6 @@ h3.title {
     padding: 50px 0 50px;
 }
 
-.section_title span:before {
-    left: 0%;
-}
 
 .department-details {
     margin-bottom: 50px;
@@ -969,9 +966,10 @@ h4 {
     overflow: hidden;
 }
 
-.deparment-items img {
+.owl-carousel .deparment-items img {
     vertical-align: top;
     display: inline-block;
+    border-radius: 3px;
 }
 
 .deparment-items figure {
@@ -1018,7 +1016,6 @@ h4 {
     transition: all 0.3s linear;
     opacity: 1;
     -webkit-transition: all 0.3s linear;
-    height: 60px;
 }
 
 .deparment-items a:hover .departments-link {
