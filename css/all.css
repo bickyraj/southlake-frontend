@@ -3151,6 +3151,7 @@ textarea.form-control {
 
 .team-social {
     margin-bottom: 0;
+    margin-top: 10px;
 }
 
 .team-social li {
@@ -3163,6 +3164,8 @@ strong.team-name {
     line-height: 30px;
     font-weight: 600;
     color: #465780;
+    display: block;
+    margin-bottom: 10px;
 }
 
 .career-block {
@@ -3487,14 +3490,13 @@ strong.team-name {
     }
 
     #footer .logo {
-        width: 250px;
-        margin: 0 auto 20px;
-        display: block;
+    width: 250px;
+    margin: 0 0 20px 0;
+    display: block;
     }
 
     .text-small {
         display: block;
-        text-align: center;
     }
 
     .footer-top a {
