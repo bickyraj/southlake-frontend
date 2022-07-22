@@ -969,7 +969,7 @@ h4 {
 .owl-carousel .deparment-items img {
     vertical-align: top;
     display: inline-block;
-    border-radius: 3px!important;
+    border-radius: 3px !important;
 }
 
 .deparment-items figure {
@@ -1200,9 +1200,11 @@ h4 {
     background-size: cover;
     background-attachment: fixed;
 }
-.experience-block + .testimonials {
+
+.experience-block+.testimonials {
     padding-bottom: 140px;
 }
+
 .testimonials-item blockquote .img img {
     max-width: 100%;
     border-radius: 100%;
@@ -1501,9 +1503,11 @@ h4 {
     font-weight: 500;
     margin-bottom: 20px;
 }
-#footer .footer-top address a{
+
+#footer .footer-top address a {
     color: #000;
 }
+
 #footer .footer-top ul {
     margin: 0;
     padding: 0;
@@ -1617,12 +1621,15 @@ h4 {
     color: #f96332;
     font-weight: 600;
 }
-.contact-info{
-    margin-top:-12px;
+
+.contact-info {
+    margin-top: -12px;
 }
-#footer .footer-top ul.contact-links{
+
+#footer .footer-top ul.contact-links {
     margin: 15px 0;
 }
+
 /* Deparments */
 .inner-banner {
     background-size: cover;
@@ -2373,9 +2380,11 @@ textarea.form-control {
     border: 0;
     border-top: 1px solid #dee2e6;
 }
-.mt-job table tbody tr td:last-child{
+
+.mt-job table tbody tr td:last-child {
     text-align: right;
 }
+
 .mt-job h4 {
     margin-bottom: 0;
 }
@@ -3350,9 +3359,11 @@ strong.team-name {
     line-height: 30px;
     letter-spacing: 1px;
 }
-.npi-clia__list{
+
+.npi-clia__list {
     font-size: 14px;
 }
+
 .modal-header .close {
     margin-top: -2px;
     color: #000;
@@ -3361,6 +3372,7 @@ strong.team-name {
     text-transform: uppercase;
     color: #f96332;
 }
+
 @media only screen and (max-width: 991px) {
     .mob-icon {
         display: none;
@@ -3410,6 +3422,23 @@ strong.team-name {
     .mob-logo {
         width: 200px;
         display: block;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .testimonials-item .img {
+        width: 200px;
+        margin: 0 auto 20px;
+    }
+
+    .testimonials-item blockquote {
+        margin: 0;
+        border-left: 0;
+    }
+    .owl-dots{
+        text-align: center;
     }
 }
 
@@ -3490,9 +3519,9 @@ strong.team-name {
     }
 
     #footer .logo {
-    width: 250px;
-    margin: 0 0 20px 0;
-    display: block;
+        width: 250px;
+        margin: 0 0 20px 0;
+        display: block;
     }
 
     .text-small {
@@ -3742,9 +3771,11 @@ strong.team-name {
         line-height: 30px;
         margin: 0 0 25px;
     }
-.search-form{
-    padding: 0;
-}
+
+    .search-form {
+        padding: 0;
+    }
+
     .search-form input[type="text"] {
         background: #fff;
         width: 100%;
